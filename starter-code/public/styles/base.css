@@ -1,0 +1,36 @@
+/* blue: #03033C
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spinnaker', sans-serif;
+    color: #03033C;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 7vh;
+    background-color:#03033C ;
+
+}
+
+nav>a{
+    background-color:#03033C;
+    color: white;
+    margin: 0 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    
+}

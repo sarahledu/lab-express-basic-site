@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    {{#each css}}
+    <link rel="stylesheet" href="styles/{{this}}.css">
+    {{/each}}
+    <link href="https://fonts.googleapis.com/css?family=Spinnaker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+
+<body>
+    <header id="header_main">
+        <nav id="nav_main">
+            <a href="/" class="link">Home</a>
+            <a href="guil" class="link">Guilvinec</a>
+            <a href="ploz" class="link">Plozevet</a>
+            <a href="contact" class="link">Contact</a>
+        </nav>
+    </header>
+
+    {{{body}}}
+    <script src="./../js/slides.js"></script>
+</body>
+
+</html>
